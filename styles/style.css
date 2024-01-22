@@ -1,0 +1,84 @@
+
+.boxer{
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid rgb(25, 0, 255) */
+}
+.box{
+    /* border: 2px solid rgb(25, 0, 255); */
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+}
+.nice{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    color: #FF4240;
+    transform: rotate(130deg);
+    /* border: 2px solid rgb(0, 255, 115); */
+}
+.number{
+    position: absolute;
+   color: #131318;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 800;
+   transform: rotate(0deg);
+   /* border: 2px solid red; */
+   margin-top:40px ;
+   margin-left:30px;
+}
+.nice-first{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform: rotate(110deg);
+    color: #49D293;
+}
+.number-first{
+    position: absolute;
+    color: #131318;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    transform: rotate(0deg);
+    margin-top:40px ;
+    margin-left:30px;
+    
+}
+.nice-second{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform: rotate(140deg);
+    color: #FFB546;
+}
+.number-second{
+    position: absolute;
+    color: #131318;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    transform: rotate(0deg);
+    margin-top:40px ;
+    margin-left:30px;
+}
+.nice-third{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform: rotate(140deg);
+    color: #4C8DF1;
+}
+.number-third{
+    position: absolute;
+    color: #131318;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    transform: rotate(0deg);
+    margin-top:40px ;
+    margin-left:30px;
+}
