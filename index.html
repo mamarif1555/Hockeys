@@ -25,49 +25,43 @@
 <body class="font-manrope">
    <header>
     <!-- nav bar -->
-    <nav class="container mx-auto bg-indigo-700">
+    <section>
+      <nav class="container mx-auto lg:px-24 px-5 lg:my-14 my-4">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+                <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl">Hockey’s</a>
+              <a class="text-3xl text-[#131318] font-extrabold">Hockey<span class="text-[#FF4240] text-[#131318] font-extrabold">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li>
-                  <details>
-                    <summary>Parent</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a>Item 3</a></li>
+                <li><a><span class="text-[#FF4240] font-bold">Home</span></a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
+            <div class="navbar-end lg:space-x-6 ">
+              <i class="fa-solid fa-magnifying-glass lg:w-[24px] lg:h-[24px] lg:mt-3 hidden lg:flex"></i>
+              <button class="btn px-6 py-4 bg-[#FF4240] btn-primary border-0 text-white">Primary</button>
             </div>
           </div>
     </nav>
+   </section>
+    <!--slider section  -->
    <section>
-    <div class="container mx-auto lg:px-24 px-8 my-2 border-orange-600">
+    <div class="container mx-auto lg:px-24 px-5 my-2 border-orange-600">
       <div class="carousel w-full all ">
           <div id="slide1" class="carousel-item relative w-full lg:h-[550px] h-[200px]">
             <img src="./images/1.png"class="w-full lg:h-[550px] h-[200px]" />
@@ -98,9 +92,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:w-[502px] lg:mx-[500px] bg-black lg:-translate-y-60 rounded-xl space-y-4 px-7 py-7">
-            <h3 class="text-white lg:text-2xl text-[18px] font-bold ">Meet all the heroes from the field</h3>
-            <p class="text-white text-xs font-medium">That whole sequence of less than a minute was maybe the least animated Roy was throughout his first night.</p>
+        <div class=" bg-black lg:-translate-y-60 rounded-xl space-y-4 px-7 py-7 lg:w-[566px] w-[355px] lg:mx-[450px] my-4">
+            <h3 class="text-white lg:text-[24px] text-[18px] font-extrabold ">Meet all the heroes from the field</h3>
+            <p class="text-white lg:w-[502px] w-[303px] text-[16px] font-medium leading-6">That whole sequence of less than a minute was maybe the least animated Roy was throughout his first night.</p>
         </div>
   </div>
    </section>
@@ -190,7 +184,7 @@
       </div>
      </section>
 
-
+       <!-- Our New Products -->
     <section>
       <div class="container mx-auto  bg-orange-500">
         <div class="mx-auto text-center my-6">
